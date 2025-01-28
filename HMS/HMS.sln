@@ -5,6 +5,10 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS", "HMS.csproj", "{789FFDC5-9C64-4FA1-B2D6-D61C0A6E1720}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS_Business_Layer", "..\HMS_Business_Layer\HMS_Business_Layer.csproj", "{0BB0906B-0AC0-4B7A-884B-26A803388F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS_Data_Access_Layer", "..\HMS_Data_Access_Layer\HMS_Data_Access_Layer.csproj", "{4505029E-43B6-433A-B0E2-EE7B361E0A5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{789FFDC5-9C64-4FA1-B2D6-D61C0A6E1720}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{789FFDC5-9C64-4FA1-B2D6-D61C0A6E1720}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{789FFDC5-9C64-4FA1-B2D6-D61C0A6E1720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB0906B-0AC0-4B7A-884B-26A803388F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB0906B-0AC0-4B7A-884B-26A803388F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB0906B-0AC0-4B7A-884B-26A803388F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB0906B-0AC0-4B7A-884B-26A803388F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4505029E-43B6-433A-B0E2-EE7B361E0A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4505029E-43B6-433A-B0E2-EE7B361E0A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4505029E-43B6-433A-B0E2-EE7B361E0A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4505029E-43B6-433A-B0E2-EE7B361E0A5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
