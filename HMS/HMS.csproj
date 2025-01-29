@@ -47,8 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -57,6 +66,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -76,6 +86,48 @@
       <Project>{0bb0906b-0ac0-4b7a-884b-26a803388f89}</Project>
       <Name>HMS_Business_Layer</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patients\patient_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctors\doctor_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Appointments\appointment_schedule_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users\users_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Payments\payment_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background\hospital_image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Account Settings\account_settings_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Account Settings\PersonDetails_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Account Settings\Password_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Account Settings\sign_out_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Appointments\appointment_schedule_book_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Appointments\appointment_schedule_book_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Appointments\appointment_schedule_search_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Appointments\appointment_schedule_cancel_48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
